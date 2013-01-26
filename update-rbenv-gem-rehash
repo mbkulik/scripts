@@ -1,3 +1,0 @@
-#!/bin/sh
-
-cd ~/.rbenv/plugins/rbenv-gem-rehash; git pull; cd -

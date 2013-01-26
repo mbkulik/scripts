@@ -1,0 +1,15 @@
+#!/bin/sh
+
+working_dir=$PWD
+
+echo "Update rbenv"
+cd ~/.rbenv; git pull
+
+echo "Update rubybuild"
+cd ~/.rbenv/plugins/ruby-build; git pull
+
+echo "Update rbenv-gem-rehash"
+cd ~/.rbenv/plugins/rbenv-gem-rehash; git pull
+
+cd $working_dir
+echo "Successfully updated ruby environment"
