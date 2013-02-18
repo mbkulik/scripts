@@ -1,0 +1,7 @@
+print-ruby-configure-args:
+
+	prints the compile time and configuration arguments used when ruby was compiled
+
+update-ruby-environment:
+
+	updates rbenv, ruby-build, and rbenv-gem-rehash

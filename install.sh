@@ -5,4 +5,4 @@ if [ ! -d "$HOME/bin" ]; then
 fi
 
 cp update-ruby-environment $HOME/bin
-cp check-ruby-copts $HOME/bin
+cp print-ruby-configure-args $HOME/bin
