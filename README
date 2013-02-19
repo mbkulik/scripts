@@ -16,9 +16,10 @@ install_ruby:
 
 	How-To:
 		
-		- source the provided install_ruby_completion.bash in ~/.bash_profile 
-			source ~/bin/install_ruby_completion.bash
+		- source the provided install_ruby_completion.bash in 
+		~/.bash_profile 
+		
+		ie. source ~/bin/install_ruby_completion.bash
 
 		- install_ruby [version]
-			will auto completed to the versions available to install with 
-			ruby-build
+			will auto completed to the versions available from ruby-build
