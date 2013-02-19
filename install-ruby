@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export CFLAGS="-march=core2 -O2 -pipe"
+CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl`" rbenv install $1
