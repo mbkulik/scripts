@@ -14,12 +14,15 @@ install_ruby:
 	Ruby 2.0.0-* is not supported since rbenv and ruby-build install the 
 	openssl dependency as needed. 
 
-	How-To:
-		
-		- source the provided install_ruby_completion.bash in 
-		~/.bash_profile 
-		
-		ie. source ~/bin/install_ruby_completion.bash
+	prerequisites:
+		- bash-completion
+		- rbenv
+		- ruby-build
 
+	How-To:
+		- run sh install.sh
+		(scripts install to ~/bin and completion scripts to 
+		 /usr/local/etc/bash_completion.d/)
+		
 		- install_ruby [version]
-			will auto completed to the versions available from ruby-build
+		will auto completed to the versions available from ruby-build
