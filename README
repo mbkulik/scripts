@@ -10,9 +10,7 @@ update-ruby-environment:
 install_ruby:
 
 	A simple wrapper around rbenv and ruby-build to facilitate building and 
-	installing ruby with CFLAGS and the openssl available throught homebrew. 
-	Ruby 2.0.0-* is not supported since rbenv and ruby-build install the 
-	openssl dependency as needed. 
+	installing ruby with CFLAGS and the openssl available through homebrew. 
 
 	prerequisites:
 		- bash-completion
