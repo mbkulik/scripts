@@ -7,14 +7,15 @@ update-ruby-environment:
 
 	updates rbenv, ruby-build, and rbenv-gem-rehash
 
-install_ruby:
+ruby-install:
 
-	A simple wrapper around rbenv and ruby-build to facilitate building and 
-	installing ruby with CFLAGS and the openssl available through homebrew. 
+	A simple wrapper around ruby-build to facilitate building and 
+	installing ruby with CFLAGS and the openssl available through homebrew.
+	
+	Installs to /opt/rubies/ 
 
 	prerequisites:
 		- bash-completion
-		- rbenv
 		- ruby-build
 
 	How-To:
@@ -22,5 +23,5 @@ install_ruby:
 		(scripts install to ~/bin and completion scripts to 
 		 /usr/local/etc/bash_completion.d/)
 		
-		- install_ruby [version]
-		will auto completed to the versions available from ruby-build
+		- ruby-install [version]
+		will autocomplete to the versions available from ruby-build

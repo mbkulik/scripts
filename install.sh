@@ -8,12 +8,12 @@ cp update-ruby-environment $HOME/bin
 
 cp print-ruby-configure-args $HOME/bin
 
-cp install-ruby $HOME/bin
+cp ruby-install $HOME/bin
 
 bash_completion=/usr/local/etc/bash_completion.d/
 
 if [ -d "$bash_completion" ]; then
-	cp install_ruby_completion.bash $bash_completion
+	cp ruby_install_completion.bash $bash_completion
 else
 	echo "needs bash-completion installed via HomeBrew"
 fi

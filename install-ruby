@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-CFLAGS="-march=core2 -O2 -pipe" RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl`" rbenv install $1
