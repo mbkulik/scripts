@@ -6,22 +6,3 @@ print-ruby-configure-args:
 update-ruby-environment:
 
 	updates rbenv, ruby-build, and rbenv-gem-rehash
-
-ruby-install:
-
-	A simple wrapper around ruby-build to facilitate building and 
-	installing ruby with CFLAGS and the openssl available through homebrew.
-	
-	Installs to /opt/rubies/ 
-
-	prerequisites:
-		- bash-completion
-		- ruby-build
-
-	How-To:
-		- run sh install.sh
-		(scripts install to ~/bin and completion scripts to 
-		 /usr/local/etc/bash_completion.d/)
-		
-		- ruby-install [version]
-		will autocomplete to the versions available from ruby-build
