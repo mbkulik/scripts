@@ -7,3 +7,5 @@ fi
 cp update-ruby-environment $HOME/bin
 
 cp print-ruby-configure-args $HOME/bin
+
+cp dev-server $HOME/bin
