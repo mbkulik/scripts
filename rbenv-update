@@ -4,9 +4,7 @@ echo "Updating rbenv"
 pushd ~/.rbenv &> /dev/null
 git pull
 
-pushd plugins/ &> /dev/null
-
-for dir in `ls`; do
+for dir in plugins/*; do
 
 	echo "Updating $dir"
 	pushd $dir &> /dev/null
