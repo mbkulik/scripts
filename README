@@ -1,8 +1,17 @@
-print-ruby-configure-args:
 
-	prints the compile time and configuration arguments used when ruby was 
-	compiled
+install.sh:
+	installs the following scripts to $HOME/bin
 
-update-ruby-environment:
+dev-server:
+	serves the current working directory via WEBrick on port 8080
 
-	updates rbenv, ruby-build, and rbenv-gem-rehash
+ffmpeg-update:
+	downloads and copies static mac os x builds of ffmpeg and ffprobe
+	from http://evermeet.cx/{ffmpeg,ffprobe} to /usr/local/bin
+
+rbconfig-args:
+	prints the compile time and configuration arguments of ruby
+
+rbenv-update:
+	updates rbenv and any plugins
+	
