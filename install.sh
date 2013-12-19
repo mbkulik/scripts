@@ -9,3 +9,5 @@ cp rbenv-update $HOME/bin
 cp rbconfig-args $HOME/bin
 
 cp dev-server $HOME/bin
+
+cp ffmpeg-update $HOME/bin
