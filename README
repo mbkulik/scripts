@@ -2,14 +2,14 @@
 install.sh:
 	installs the following scripts to $HOME/bin
 
-dev-server:
+server:
 	serves the current working directory via WEBrick on port 8080
 
 ffmpeg-update:
 	downloads and copies static mac os x builds of ffmpeg and ffprobe
 	from http://evermeet.cx/{ffmpeg,ffprobe} to /usr/local/bin
 
-rbconfig-args:
+rbconfig:
 	prints the compile time and configuration arguments of ruby
 
 rbenv-update:
