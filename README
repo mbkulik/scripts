@@ -7,7 +7,3 @@ server:
 
 rbconfig:
 	prints the compile time and configuration arguments of ruby
-
-rbenv-update:
-	updates rbenv and any plugins
-	
