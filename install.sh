@@ -9,5 +9,3 @@ cp rbenv-update $HOME/bin
 cp rbconfig $HOME/bin
 
 cp serve $HOME/bin
-
-cp ffmpeg-update $HOME/bin
